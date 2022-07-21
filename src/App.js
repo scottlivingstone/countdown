@@ -4,11 +4,19 @@ import './App.css';
 
 function App() {
   return (
-    <div className="container">
+    <div className='container'>
       <Header />
-      <p>
+      <div className='row'>
+        <div className='col'>
         <DateDiff />
-      </p>
+        </div>
+        <div className='col'>
+          <DateDiff />
+        </div>
+        <div className='col'>
+          <DateDiff />
+        </div>
+      </div>
     </div>
   );
 }
