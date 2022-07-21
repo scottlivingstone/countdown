@@ -11,3 +11,17 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.bgrd-img {
+  background-image: url('images/paradise_beach.png');
+  height: 375px;
+  background-color: #cccccc;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header-text {
+  color: white;
+  font-weight:bolder;
+  font-size: 5rem;
+}
