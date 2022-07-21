@@ -1,16 +1,14 @@
-import logo from './logo.svg';
-import DateDiff from './DateDiff';
+import DateDiff from './components/DateDiff';
+import Header from './components/header'
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          <DateDiff />
-        </p>
-      </header>
+    <div className="container">
+      <Header />
+      <p>
+        <DateDiff />
+      </p>
     </div>
   );
 }
