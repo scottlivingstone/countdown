@@ -1,8 +1,10 @@
 import DateDiff from './components/DateDiff';
+import CountdownTimer from './components/CountdownTimer'
 import Header from './components/header'
 import './App.css';
 
 function App() {
+  const targetDate = new Date('2029-11-31').getTime();
   return (
     <div className='container'>
       <Header />
@@ -11,7 +13,7 @@ function App() {
         <DateDiff />
         </div>
         <div className='col'>
-          <DateDiff />
+        <CountdownTimer targetDate={targetDate} />
         </div>
         <div className='col'>
           <DateDiff />
