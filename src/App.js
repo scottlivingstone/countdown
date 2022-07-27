@@ -4,7 +4,7 @@ import Header from './components/header'
 import './App.css';
 
 function App() {
-  const targetDate = new Date('2029-11-31').getTime();
+  const targetDate = new Date('2029,11,31').getTime();
   return (
     <div>
       <div className='container'>
